@@ -19,6 +19,7 @@
   "devDependencies": {
     "cypress": "^8.0.0",
     "cypress-cucumber-preprocessor": "^4.2.0",
+    "cypress-file-upload": "^5.0.8",
     "cypress-mochawesome-reporter": "^2.2.0",
     "cypress-multi-reporters": "^1.5.0",
     "cypress-xpath": "^1.6.2",

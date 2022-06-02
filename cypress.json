@@ -2,7 +2,7 @@
 
     "env":
     {
-        "url":"https://www.demoblaze.com/"
+        "url":"http://immense-hollows-74271.herokuapp.com/"
     },
     "testFiles": "**/*.feature",
     "reporter": "cypress-multi-reporters",
