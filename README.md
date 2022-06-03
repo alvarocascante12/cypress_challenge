@@ -31,7 +31,7 @@ run all test and generated a report in this folder reports/mochareports/report.h
 this command make a image of docker
 
     docker build -t my-cypress-image:1.0 .
-this command make a contair
+this command make a container and execute all test cases the result saved in the folder report of your local machine the volume of the container was mounted in this folder
 
 
 
