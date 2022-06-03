@@ -81,9 +81,12 @@ export function validateTextUpdateDescription() {
 export function validateDeleteItem() {
     cy.reload()
     cy.get('[class="ng-binding"]').invoke('text').then((text) => {
+        var string_to_numb = +myNumberofList.save.match(/\d+/)[0]
         myNumberofList.save2 = text.trim()
-        expect(myNumberofList.save).equal(myNumberofList.save2)
+        var string_to_numb_2= +myNumberofList.save2.match(/\d+/)[0]
+        expect(string_to_numb -1).equal(string_to_numb_2)
     });
+
 }
 
 export function checkList(value) {
